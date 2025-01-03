@@ -1,0 +1,42 @@
+{
+  "common": {
+    "buttons": {
+      "startNow": "COMEÇAR AGORA",
+      "learnMore": "SAIBA MAIS",
+      "contactUs": "FALE CONOSCO",
+      "joinNow": "QUERO FAZER PARTE"
+    },
+    "menu": {
+      "about": "SOBRE NÓS",
+      "services": "SERVIÇOS",
+      "community": "COMUNIDADE",
+      "contact": "CONTATO"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Transformando ideias",
+      "subtitle": "em negócios de sucesso",
+      "description": "Junte-se a uma comunidade de empreendedores comprometidos com a inovação e valores cristãos. Desenvolva seu negócio com mentoria, networking e recursos exclusivos."
+    },
+    "services": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções completas para transformar sua ideia em um negócio de sucesso"
+    }
+  },
+  "footer": {
+    "description": "Transformando empreendedores em líderes de impacto através de mentoria, networking e valores cristãos.",
+    "quickLinks": {
+      "title": "Links Rápidos",
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "contact": "Contato",
+      "privacy": "Política de Privacidade"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Seu e-mail"
+    },
+    "copyright": "© {year} Start Space. Todos os direitos reservados."
+  }
+}

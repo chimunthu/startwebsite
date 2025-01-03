@@ -1,0 +1,42 @@
+{
+  "common": {
+    "buttons": {
+      "startNow": "START NOW",
+      "learnMore": "LEARN MORE",
+      "contactUs": "CONTACT US",
+      "joinNow": "JOIN NOW"
+    },
+    "menu": {
+      "about": "ABOUT US",
+      "services": "SERVICES",
+      "community": "COMMUNITY",
+      "contact": "CONTACT"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Transforming ideas",
+      "subtitle": "into successful businesses",
+      "description": "Join a community of entrepreneurs committed to innovation and Christian values. Develop your business with mentoring, networking, and exclusive resources."
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Complete solutions to transform your idea into a successful business"
+    }
+  },
+  "footer": {
+    "description": "Transforming entrepreneurs into impact leaders through mentoring, networking, and Christian values.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "about": "About Us",
+      "services": "Services",
+      "contact": "Contact",
+      "privacy": "Privacy Policy"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Your email"
+    },
+    "copyright": "© {year} Start Space. All rights reserved."
+  }
+}
