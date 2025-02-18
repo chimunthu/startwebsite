@@ -57,14 +57,6 @@ const HeroSlider = () => {
                     <p className="text-lg md:text-xl mb-8 max-w-2xl">
                       {slide.description}
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4">
-                      <Button variant="primary" size="lg">
-                        {slide.actions.primary}
-                      </Button>
-                      <Button variant="secondary" size="lg">
-                        {slide.actions.secondary}
-                      </Button>
-                    </div>
                   </div>
                 </div>
               </div>
