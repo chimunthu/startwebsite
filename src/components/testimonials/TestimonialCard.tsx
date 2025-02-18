@@ -1,46 +1,42 @@
 import React from 'react';
 import StarRating from './StarRating';
+import { useTranslation } from '../../hooks/useTranslation';
 
 interface TestimonialCardProps {
   image: string;
-  name: string;
-  role?: string;
-  company?: string;
-  testimonial: string;
+  index: number;
   rating: number;
 }
 
-const TestimonialCard = ({
-  image,
-  name,
-  role,
-  company,
-  testimonial,
-  rating,
-}: TestimonialCardProps) => {
+const TestimonialCard = ({ image, index, rating }: TestimonialCardProps) => {
+  const { t } = useTranslation();
+  const testimonialData = t(`home.testimonials.items.${index}`);
+
   return (
     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
       <div className="flex items-center gap-4 mb-4">
         <img
           src={image}
-          alt={name}
+          alt={testimonialData.name}
           className="w-16 h-16 rounded-full object-cover border-2 border-primary/10"
         />
         <div>
-          <h3 className="font-heading font-semibold text-gray-900">{name}</h3>
-          {(role || company) && (
-            <p className="text-sm text-gray-600">
-              {role}
-              {role && company && ' - '}
-              {company}
-            </p>
-          )}
+          <h3 className="font-heading font-semibold text-gray-900">
+            {testimonialData.name}
+          </h3>
+          <p className="text-sm text-gray-600">
+            {testimonialData.role}
+            {' - '}
+            {testimonialData.company}
+          </p>
         </div>
       </div>
       
       <StarRating rating={rating} />
       
-      <p className="mt-4 text-gray-600 line-clamp-3">{testimonial}</p>
+      <p className="mt-4 text-gray-600 line-clamp-3">
+        {testimonialData.text}
+      </p>
     </div>
   );
 };

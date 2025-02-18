@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import HeroOverlay from './HeroOverlay';
+import Button from '../ui/Button';
 import { useTranslation } from '../../hooks/useTranslation';
 
 const HeroSlider = () => {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
-  const slides = t('home.hero.slides');
+  const slides = t('home.hero.slides') as Array<{ title: string; subtitle: string; description: string; theme: string; actions: { primary: string; secondary: string } }>;
+
+  // Add validation
+  if (!Array.isArray(slides)) {
+    console.error('Missing or invalid slides data');
+    return null;
+  }
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -26,6 +33,7 @@ const HeroSlider = () => {
 
   return (
     <div className="relative h-screen overflow-hidden">
+
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -33,15 +41,23 @@ const HeroSlider = () => {
             index === currentSlide ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          <HeroOverlay image={heroImages[index]} showLogo>
+          <HeroOverlay image={heroImages[index]}>
             <div className="min-h-screen flex items-center">
               <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-                <div className="text-white relative z-10">
-                  <h1 className="font-heading text-5xl md:text-7xl font-bold mb-4 ml-auto w-2/3">
-                    {slide.title}
-                    <span className="block text-accent">{slide.subtitle}</span>
-                  </h1>
-                  <p className="text-xl mb-8 ml-auto w-2/3">{slide.description}</p>
+                {/* Adjusted margin-top to account for logo space */}
+                <div className="text-white relative z-10 mt-24 md:mt-0">
+                  <div className="ml-auto w-full md:w-2/3">
+                    <span className="text-accent text-lg md:text-xl mb-4 block">
+                      {slide.theme}
+                    </span>
+                    <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
+                      {slide.title}
+                      <span className="block text-accent">{slide.subtitle}</span>
+                    </h1>
+                    <p className="text-lg md:text-xl mb-8 max-w-2xl">
+                      {slide.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

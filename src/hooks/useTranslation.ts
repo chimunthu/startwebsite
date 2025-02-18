@@ -7,17 +7,20 @@ const translations = {
   en,
 };
 
+type TranslationKey = string;
+type TranslationValue = string | Record<string, any> | any[];
+
 export const useTranslation = () => {
   const { currentLanguage } = useLanguage();
 
-  const t = (key: string) => {
+  const t = (key: TranslationKey): TranslationValue => {
     try {
       const keys = key.split('.');
       let value = translations[currentLanguage];
 
       for (const k of keys) {
         if (value?.[k] === undefined) {
-          console.warn(`Translation key not found: ${key}`);
+          console.warn(`Translation key not found: ${key} in language: ${currentLanguage}`);
           return key;
         }
         value = value[k];

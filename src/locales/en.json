@@ -3,7 +3,7 @@
     "buttons": {
       "startNow": "START NOW",
       "learnMore": "LEARN MORE",
-      "contactUs": "CONTACT US",
+      "contactUs": "Contact Us",
       "joinNow": "JOIN NOW"
     },
     "menu": {
@@ -15,13 +15,122 @@
   },
   "home": {
     "hero": {
-      "title": "Transforming ideas",
-      "subtitle": "into successful businesses",
-      "description": "Join a community of entrepreneurs committed to innovation and Christian values. Develop your business with mentoring, networking, and exclusive resources."
+      "slides": [
+        {
+          "title": "Empower Your Vision",
+          "subtitle": "Transform Your Ideas Into Reality",
+          "description": "Access top-notch workspaces and tools to build your future.",
+          "theme": "Arm - Physical Strength to Achieve Goals",
+          "actions": {
+            "primary": "Learn More",
+            "secondary": "Contact Us"
+          }
+        },
+        {
+          "title": "Knowledge is Power",
+          "subtitle": "Learn from the Best to Innovate",
+          "description": "Mentorship and training programs to sharpen your skills.",
+          "theme": "Brain - Shared Knowledge for Innovation",
+          "actions": {
+            "primary": "Explore Programs",
+            "secondary": "Contact Us"
+          }
+        },
+        {
+          "title": "Fuel Your Growth",
+          "subtitle": "From Seed to Scale",
+          "description": "Access funding, grants, and investor networks to propel your startup.",
+          "theme": "Pocket - Financial Resources to Grow",
+          "actions": {
+            "primary": "Discover Opportunities",
+            "secondary": "Contact Us"
+          }
+        }
+      ]
     },
     "services": {
       "title": "Our Services",
-      "subtitle": "Complete solutions to transform your idea into a successful business"
+      "subtitle": "Complete solutions to transform your idea into a successful business",
+      "items": [
+        {
+          "title": "Startup Acceleration",
+          "description": "Intensive acceleration program with specialized mentoring, resources, and support to boost your business growth."
+        },
+        {
+          "title": "Incubation Program",
+          "description": "Complete support for early-stage startups, including workspace, mentoring, and access to our partner network."
+        },
+        {
+          "title": "Networking Events",
+          "description": "Connect with other entrepreneurs, mentors, and investors in our exclusive networking and knowledge events."
+        },
+        {
+          "title": "Investments",
+          "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network."
+        }
+      ]
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "subtitle": "Benefits that set us apart",
+      "items": [
+        {
+          "title": "Christian Values",
+          "description": "Build your business on strong ethical foundations",
+          "icon": "Heart"
+        },
+        {
+          "title": "Expert Community",
+          "description": "Learn from successful entrepreneurs and mentors",
+          "icon": "Users"
+        },
+        {
+          "title": "Innovation Focus",
+          "description": "Stay ahead with cutting-edge business practices",
+          "icon": "Lightbulb"
+        }
+      ]
+    },
+    "community": {
+      "title": "Join Our Community",
+      "subtitle": "Connect with like-minded entrepreneurs",
+      "description": "Be part of a growing network of Christian entrepreneurs dedicated to making a difference",
+      "joinButton": "Join Now"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "Hear from our community members",
+      "items": [
+        {
+          "name": "John Smith",
+          "role": "Tech Startup Founder",
+          "company": "TechVision",
+          "text": "Start Space helped me turn my idea into a thriving business with strong Christian values."
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Social Entrepreneur",
+          "company": "EcoSolutions",
+          "text": "The mentoring and community support here is unlike anything I've experienced before."
+        },
+        {
+          "name": "Michael Brown",
+          "role": "Innovation Director",
+          "company": "Future Labs",
+          "text": "The acceleration program gave us the tools we needed to scale our business sustainably."
+        },
+        {
+          "name": "Emma Wilson",
+          "role": "CEO",
+          "company": "Health Tech",
+          "text": "Finding investors aligned with our values was crucial. Start Space made that connection possible."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "description": "Join our community of Christian entrepreneurs today",
+      "button": "Get Started"
     }
   },
   "footer": {
@@ -38,5 +147,27 @@
       "placeholder": "Your email"
     },
     "copyright": "© {year} Start Space. All rights reserved."
+  },
+  "services": {
+    "acceleration": {
+      "title": "Startup Acceleration",
+      "description": "Intensive acceleration program with specialized mentoring, resources, and support to boost your business growth.",
+      "button": "Apply Now"
+    },
+    "incubation": {
+      "title": "Incubation Program",
+      "description": "Complete support for early-stage startups, including workspace, mentoring, and access to our partner network.",
+      "button": "Learn More"
+    },
+    "networking": {
+      "title": "Networking Events",
+      "description": "Connect with other entrepreneurs, mentors, and investors in our exclusive networking and knowledge events.",
+      "button": "Join an Event"
+    },
+    "investment": {
+      "title": "Investments",
+      "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network.",
+      "button": "Apply for Investment"
+    }
   }
 }
