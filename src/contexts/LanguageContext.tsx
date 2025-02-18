@@ -12,7 +12,13 @@ const LanguageContext = createContext<LanguageContextType>({
   isLoading: true,
 });
 
-export const useLanguage = () => useContext(LanguageContext);
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [currentLanguage, setCurrentLanguage] = useState(() => {
@@ -28,8 +34,10 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   }, [currentLanguage]);
 
   const setLanguage = (lang: string) => {
-    setIsLoading(true);
-    setCurrentLanguage(lang);
+    if (lang !== currentLanguage) {
+      setIsLoading(true);
+      setCurrentLanguage(lang);
+    }
   };
 
   if (isLoading) {

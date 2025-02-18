@@ -1,8 +1,8 @@
 export const languages = {
   pt: {
     name: 'Português',
-    flag: 'https://flagcdn.com/br.svg',
-    code: 'pt-BR'
+    flag: 'https://flagcdn.com/mz.svg',
+    code: 'pt-MZ'
   },
   en: {
     name: 'English',

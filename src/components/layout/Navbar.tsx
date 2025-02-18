@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Rocket } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Button from '../ui/Button';
 import LanguageSelector from '../language/LanguageSelector';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
@@ -10,6 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const isScrolled = useScrollPosition();
   const { t } = useTranslation();
+  const location = useLocation();
 
   const navItems = [
     { label: t('common.menu.about'), href: '/sobre' },
@@ -24,13 +25,14 @@ const Navbar = () => {
         fixed w-full z-40 
         transition-all duration-300 
         ${isScrolled ? 'bg-primary shadow-lg py-4' : 'bg-transparent py-6'}
+        ${location.pathname === '/' ? '' : 'bg-primary shadow-lg py-4'}
       `}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Rocket className={`h-8 w-8 transition-colors duration-300 ${
-              isScrolled ? 'text-accent' : 'text-white'
+              isScrolled || location.pathname !== '/' ? 'text-accent' : 'text-white'
             }`} />
             <span className="font-heading text-white text-2xl font-bold">START SPACE</span>
           </Link>
@@ -41,7 +43,7 @@ const Navbar = () => {
                 key={item.label}
                 to={item.href}
                 className={`font-body text-sm font-medium transition-colors ${
-                  isScrolled 
+                  isScrolled || location.pathname !== '/' 
                     ? 'text-white hover:text-accent' 
                     : 'text-white/90 hover:text-white'
                 }`}
@@ -51,8 +53,8 @@ const Navbar = () => {
             ))}
             <LanguageSelector />
             <Button 
-              variant={isScrolled ? "secondary" : "primary"}
-              className={isScrolled ? "border-accent text-accent hover:bg-accent hover:text-primary" : ""}
+              variant={isScrolled || location.pathname !== '/' ? "secondary" : "primary"}
+              className={isScrolled || location.pathname !== '/' ? "border-accent text-accent hover:bg-accent hover:text-primary" : ""}
             >
               {t('common.buttons.startNow')}
             </Button>

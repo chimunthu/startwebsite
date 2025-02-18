@@ -1,20 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import HeroOverlay from './HeroOverlay';
-import { slides } from './heroData';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const HeroSlider = () => {
+  const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
+  const slides = t('home.hero.slides');
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [slides.length]);
 
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+
+  const heroImages = [
+    "https://images.unsplash.com/photo-1521737711867-e3b97375f902",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "https://images.unsplash.com/photo-1553877522-43269d4ea984"
+  ];
 
   return (
     <div className="relative h-screen overflow-hidden">
@@ -25,7 +33,7 @@ const HeroSlider = () => {
             index === currentSlide ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          <HeroOverlay image={slide.image} showLogo>
+          <HeroOverlay image={heroImages[index]} showLogo>
             <div className="min-h-screen flex items-center">
               <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
                 <div className="text-white relative z-10">
