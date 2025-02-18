@@ -1,44 +1,46 @@
 import React from 'react';
 import { Rocket, Download, MousePointer, BookOpen } from 'lucide-react';
 import ServiceStep from './ServiceStep';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const services = [
   {
     number: 1,
     icon: Rocket,
-    title: "Aceleração de Startups",
-    description: "Programa intensivo de aceleração com mentoria especializada, recursos e suporte para impulsionar o crescimento do seu negócio."
+    title: "home.services.items.0.title",
+    description: "home.services.items.0.description"
   },
   {
     number: 2,
     icon: Download,
-    title: "Programa de Incubação",
-    description: "Suporte completo para startups em estágio inicial, incluindo espaço de trabalho, mentoria e acesso à nossa rede de parceiros."
+    title: "home.services.items.1.title",
+    description: "home.services.items.1.description"
   },
   {
     number: 3,
     icon: MousePointer,
-    title: "Eventos de Networking",
-    description: "Conecte-se com outros empreendedores, mentores e investidores em nossos eventos exclusivos de networking e conhecimento."
+    title: "home.services.items.2.title",
+    description: "home.services.items.2.description"
   },
   {
     number: 4,
     icon: BookOpen,
-    title: "Investimentos",
-    description: "Oportunidade de investimento para startups alinhadas com nossos valores. Conectamos você com nossa rede de investidores."
+    title: "home.services.items.3.title",
+    description: "home.services.items.3.description"
   }
 ];
 
 const Services = () => {
+   const { t } = useTranslation();
   return (
     <section className="py-20 bg-bg-secondary" id="services">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-heading font-bold mb-4">
-            Nossos Serviços
+            {t("home.services.title")}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Soluções completas para transformar sua ideia em um negócio de sucesso
+            {t("home.services.subtitle")}
           </p>
         </div>
 
@@ -52,8 +54,8 @@ const Services = () => {
                 key={index}
                 number={service.number}
                 icon={service.icon}
-                title={service.title}
-                description={service.description}
+                title={t(service.title)}
+                description={t(service.description)}
               />
             ))}
           </div>

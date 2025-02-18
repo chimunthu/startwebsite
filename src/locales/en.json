@@ -3,7 +3,7 @@
     "buttons": {
       "startNow": "START NOW",
       "learnMore": "LEARN MORE",
-      "contactUs": "CONTACT US",
+      "contactUs": "Contact Us",
       "joinNow": "JOIN NOW"
     },
     "menu": {
@@ -15,13 +15,108 @@
   },
   "home": {
     "hero": {
-      "title": "Transforming ideas",
-      "subtitle": "into successful businesses",
-      "description": "Join a community of entrepreneurs committed to innovation and Christian values. Develop your business with mentoring, networking, and exclusive resources."
+      "slides": [
+        {
+          "title": "Empower Your Vision",
+          "subtitle": "Transform Your Ideas Into Reality",
+          "description": "Access top-notch workspaces and tools to build your future.",
+          "theme": "Arm - Physical Strength to Achieve Goals",
+          "actions": {
+            "primary": "Learn More",
+            "secondary": "Contact Us"
+          }
+        },
+        {
+          "title": "Knowledge is Power",
+          "subtitle": "Learn from the Best to Innovate",
+          "description": "Mentorship and training programs to sharpen your skills.",
+          "theme": "Brain - Shared Knowledge for Innovation",
+          "actions": {
+            "primary": "Explore Programs",
+            "secondary": "Contact Us"
+          }
+        },
+        {
+          "title": "Fuel Your Growth",
+          "subtitle": "From Seed to Scale",
+          "description": "Access funding, grants, and investor networks to propel your startup.",
+          "theme": "Pocket - Financial Resources to Grow",
+          "actions": {
+            "primary": "Discover Opportunities",
+            "secondary": "Contact Us"
+          }
+        }
+      ]
     },
     "services": {
-      "title": "Our Services",
-      "subtitle": "Complete solutions to transform your idea into a successful business"
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções completas para transformar sua ideia em um negócio de sucesso",
+      "items": [
+        {
+          "title": "Aceleração de Startups",
+          "description": "Programa intensivo de aceleração com mentoria especializada, recursos e suporte para impulsionar o crescimento do seu negócio."
+        },
+        {
+          "title": "Programa de Incubação",
+          "description": "Suporte completo para startups em estágio inicial, incluindo espaço de trabalho, mentoria e acesso à nossa rede de parceiros."
+        },
+        {
+          "title": "Eventos de Networking",
+          "description": "Conecte-se com outros empreendedores, mentores e investidores em nossos eventos exclusivos de networking e conhecimento."
+        },
+        {
+          "title": "Investimentos",
+          "description": "Oportunidade de investimento para startups alinhadas com nossos valores. Conectamos você com nossa rede de investidores."
+        }
+      ]
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "subtitle": "Benefits that set us apart",
+      "items": [
+        {
+          "title": "Christian Values",
+          "description": "Build your business on strong ethical foundations",
+          "icon": "Heart"
+        },
+        {
+          "title": "Expert Community",
+          "description": "Learn from successful entrepreneurs and mentors",
+          "icon": "Users"
+        },
+        {
+          "title": "Innovation Focus",
+          "description": "Stay ahead with cutting-edge business practices",
+          "icon": "Lightbulb"
+        }
+      ]
+    },
+    "community": {
+      "title": "Join Our Community",
+      "subtitle": "Connect with like-minded entrepreneurs",
+      "description": "Be part of a growing network of Christian entrepreneurs dedicated to making a difference",
+      "joinButton": "Join Now"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "Hear from our community members",
+      "items": [
+        {
+          "name": "John Smith",
+          "role": "Tech Startup Founder",
+          "text": "Start Space helped me turn my idea into a thriving business with strong Christian values."
+        },
+        {
+          "name": "Sarah Johnson",
+          "role": "Social Entrepreneur",
+          "text": "The mentoring and community support here is unlike anything I've experienced before."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "description": "Join our community of Christian entrepreneurs today",
+      "button": "Get Started"
     }
   },
   "footer": {
