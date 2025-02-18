@@ -49,24 +49,24 @@
       ]
     },
     "services": {
-      "title": "Nossos Serviços",
-      "subtitle": "Soluções completas para transformar sua ideia em um negócio de sucesso",
+      "title": "Our Services",
+      "subtitle": "Complete solutions to transform your idea into a successful business",
       "items": [
         {
-          "title": "Aceleração de Startups",
-          "description": "Programa intensivo de aceleração com mentoria especializada, recursos e suporte para impulsionar o crescimento do seu negócio."
+          "title": "Startup Acceleration",
+          "description": "Intensive acceleration program with specialized mentoring, resources, and support to boost your business growth."
         },
         {
-          "title": "Programa de Incubação",
-          "description": "Suporte completo para startups em estágio inicial, incluindo espaço de trabalho, mentoria e acesso à nossa rede de parceiros."
+          "title": "Incubation Program",
+          "description": "Complete support for early-stage startups, including workspace, mentoring, and access to our partner network."
         },
         {
-          "title": "Eventos de Networking",
-          "description": "Conecte-se com outros empreendedores, mentores e investidores em nossos eventos exclusivos de networking e conhecimento."
+          "title": "Networking Events",
+          "description": "Connect with other entrepreneurs, mentors, and investors in our exclusive networking and knowledge events."
         },
         {
-          "title": "Investimentos",
-          "description": "Oportunidade de investimento para startups alinhadas com nossos valores. Conectamos você com nossa rede de investidores."
+          "title": "Investments",
+          "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network."
         }
       ]
     },
@@ -104,12 +104,26 @@
         {
           "name": "John Smith",
           "role": "Tech Startup Founder",
+          "company": "TechVision",
           "text": "Start Space helped me turn my idea into a thriving business with strong Christian values."
         },
         {
           "name": "Sarah Johnson",
           "role": "Social Entrepreneur",
+          "company": "EcoSolutions",
           "text": "The mentoring and community support here is unlike anything I've experienced before."
+        },
+        {
+          "name": "Michael Brown",
+          "role": "Innovation Director",
+          "company": "Future Labs",
+          "text": "The acceleration program gave us the tools we needed to scale our business sustainably."
+        },
+        {
+          "name": "Emma Wilson",
+          "role": "CEO",
+          "company": "Health Tech",
+          "text": "Finding investors aligned with our values was crucial. Start Space made that connection possible."
         }
       ]
     },
@@ -133,5 +147,27 @@
       "placeholder": "Your email"
     },
     "copyright": "© {year} Start Space. All rights reserved."
+  },
+  "services": {
+    "acceleration": {
+      "title": "Startup Acceleration",
+      "description": "Intensive acceleration program with specialized mentoring, resources, and support to boost your business growth.",
+      "button": "Apply Now"
+    },
+    "incubation": {
+      "title": "Incubation Program",
+      "description": "Complete support for early-stage startups, including workspace, mentoring, and access to our partner network.",
+      "button": "Learn More"
+    },
+    "networking": {
+      "title": "Networking Events",
+      "description": "Connect with other entrepreneurs, mentors, and investors in our exclusive networking and knowledge events.",
+      "button": "Join an Event"
+    },
+    "investment": {
+      "title": "Investments",
+      "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network.",
+      "button": "Apply for Investment"
+    }
   }
 }

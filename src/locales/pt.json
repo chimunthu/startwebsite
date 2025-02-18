@@ -103,13 +103,27 @@
       "items": [
         {
           "name": "João Silva",
-          "role": "Fundador de Startup de Tecnologia",
+          "role": "Fundador de Startup",
+          "company": "TechVision",
           "text": "A Start Space me ajudou a transformar minha ideia em um negócio próspero com valores cristãos sólidos."
         },
         {
           "name": "Sara Johnson",
           "role": "Empreendedora Social",
-          "text": "A mentoria e o suporte da comunidade aqui são diferente de tudo que já experimentei antes."
+          "company": "EcoSolutions",
+          "text": "A mentoria e o suporte da comunidade aqui são diferentes de tudo que já experimentei antes."
+        },
+        {
+          "name": "Miguel Costa",
+          "role": "Diretor de Inovação",
+          "company": "Future Labs",
+          "text": "O programa de aceleração nos deu as ferramentas necessárias para escalar nosso negócio de forma sustentável."
+        },
+        {
+          "name": "Elena Santos",
+          "role": "CEO",
+          "company": "Health Tech",
+          "text": "Encontrar investidores alinhados com nossos valores foi crucial. A Start Space tornou essa conexão possível."
         }
       ]
     },
@@ -133,5 +147,27 @@
       "placeholder": "Seu e-mail"
     },
     "copyright": "© {year} Start Space. Todos os direitos reservados."
+  },
+  "services": {
+    "acceleration": {
+      "title": "Aceleração de Startups",
+      "description": "Programa intensivo de aceleração com mentoria especializada, recursos e suporte para impulsionar o crescimento do seu negócio.",
+      "button": "Inscreva-se Agora"
+    },
+    "incubation": {
+      "title": "Programa de Incubação",
+      "description": "Suporte completo para startups em estágio inicial, incluindo espaço de trabalho, mentoria e acesso à nossa rede de parceiros.",
+      "button": "Saiba Mais"
+    },
+    "networking": {
+      "title": "Eventos de Networking",
+      "description": "Conecte-se com outros empreendedores, mentores e investidores em nossos eventos exclusivos de networking e conhecimento.",
+      "button": "Participe de um Evento"
+    },
+    "investment": {
+      "title": "Investimentos",
+      "description": "Oportunidade de investimento para startups alinhadas com nossos valores. Conectamos você com nossa rede de investidores.",
+      "button": "Candidate-se para Investimento"
+    }
   }
 }
