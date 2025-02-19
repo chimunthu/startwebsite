@@ -169,5 +169,113 @@
       "description": "Oportunidade de investimento para startups alinhadas com nossos valores. Conectamos você com nossa rede de investidores.",
       "button": "Candidate-se para Investimento"
     }
+  },
+  "about": {
+    "hero": {
+      "title": "Inovação com Propósito",
+      "subtitle": "Somos um hub de inovação que integra fé e empreendedorismo, capacitando líderes para construir negócios que transformam vidas e geram impacto positivo no Reino de Deus."
+    },
+    "overview": {
+      "title": "Sobre a Start Space",
+      "paragraphs": [
+        "Start Space é mais do que uma aceleradora de startups, somos uma empresa que segue o conceito de <span class=\"font-bold text-primary\">Kingdom Business</span>. Nosso compromisso com a <span class=\"bg-primary/10 px-2 py-1 rounded\">excelência e integridade</span> reflete nosso objetivo de ser uma empresa de negócios do Reino de Deus, onde nosso trabalho visa impactar positivamente as pessoas e a sociedade que nos cercam.",
+        
+        "Acreditamos que a <span class=\"underline decoration-accent decoration-2\">inovação e o empreendedorismo</span> são fundamentais para o crescimento econômico e social, e estamos empenhados em fornecer as ferramentas e recursos necessários para que nossos empreendedores possam alcançar seu pleno potencial, de acordo com os <span class=\"font-bold text-primary\">valores do Reino de Deus</span>.",
+        
+        "Combinamos a <span class=\"bg-accent/10 px-2 py-1 rounded\">experiência e o conhecimento</span> de uma aceleradora de startups com o treinamento e capacitação de uma organização como a Sinapis, para ajudar os empreendedores a desenvolver seus negócios de forma <span class=\"font-bold\">ética e com visão de longo prazo</span>.",
+        
+        "Nossa equipe e nossa rede de <span class=\"underline decoration-primary decoration-2\">parceiros e mentores</span> estão comprometidos em ajudar empreendedores a superar desafios e transformar ideias em negócios bem-sucedidos, seguindo os princípios do Reino de Deus. Oferecemos uma ampla gama de serviços para apoiar o desenvolvimento de startups, incluindo <span class=\"bg-primary/10 px-2 py-1 rounded\">mentorias, treinamentos, networking e investimentos</span>, sempre buscando a excelência em nossos serviços e no impacto positivo que geramos na sociedade.",
+        
+        "Se você é um <span class=\"font-bold text-accent\">empreendedor</span> em busca de suporte e recursos para sua startup, estamos aqui para ajudá-lo a alcançar seus objetivos de negócios, com uma abordagem baseada nos valores do Reino de Deus. Junte-se a nós no Start Space e faça parte de uma <span class=\"bg-accent/10 px-2 py-1 rounded\">comunidade de empreendedores inovadores</span> que estão transformando a região e buscando deixar um legado duradouro."
+      ]
+    },
+    "history": {
+      "title": "Nossa História",
+      "methodologyTitle": "Metodologia \"BBC\"",
+      "methodology": {
+        "arm": {
+          "title": "Braço",
+          "description": "Base física do negócio: espaços de trabalho, laboratórios e infraestrutura completa para materializar ideias em produtos reais."
+        },
+        "pocket": {
+          "title": "Bolso",
+          "description": "Base financeira: acesso a financiamentos, oportunidades de pitch e networking com investidores para garantir recursos."
+        },
+        "brain": {
+          "title": "Cérebro",
+          "description": "Base intelectual: programas de mentoria, workshops e treinamentos para desenvolver habilidades e conhecimentos essenciais."
+        }
+      },
+      "timeline": [
+        {
+          "year": "2020",
+          "title": "Fundação do Start Space",
+          "description": "Nascemos com a visão de unir empreendedorismo e valores cristãos, estabelecendo as bases para um ambiente onde inovação e valores humanos se encontram.",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2021",
+          "title": "Primeira Turma de Aceleração",
+          "description": "Em 2021, lançamos nosso programa pioneiro de aceleração, onde 20 startups foram transformadas através de nossa metodologia única.",
+          "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2022",
+          "title": "Registro Oficial e Expansão Nacional",
+          "description": "No ano de 2022, formalizamos nossa existência com o registro oficial da Start Space, o que nos permitiu expandir nossas operações nacionalmente, fortalecendo nosso impacto em todo Moçambique.",
+          "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2023",
+          "title": "Parcerias Estratégicas",
+          "description": "Em 2023, firmamos parcerias estratégicas com organizações locais e internacionais, ampliando nosso alcance e enriquecendo nosso ecossistema de inovação com novas perspectivas e recursos.",
+          "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2024",
+          "title": "Três Turmas Aceleradas",
+          "description": "Em 2024, conseguimos acelerar três turmas no mesmo ano, um marco significativo que demonstra a maturidade e a capacidade de nossa metodologia para escalar o apoio a empreendedores em diferentes fases de desenvolvimento.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800"
+        }
+      ]
+    },
+    "values": {
+      "mission": {
+        "title": "Nossa Missão",
+        "description": "Na Start Space, nossa missão é criar vidas sustentáveis e prósperas em Moçambique através de iniciativas inovadoras e focadas no desenvolvimento humano. Acreditamos na força da integração de recursos físicos, conhecimento compartilhado e apoio financeiro para transformar ideias em realidade."
+      },
+      "vision": {
+        "title": "Nossa Visão",
+        "description": "Nosso objetivo é ser um catalisador de mudança, empoderando a próxima geração de empreendedores e inovadores. Queremos construir um ambiente onde a criatividade se une à tecnologia para resolver desafios reais, moldando assim o futuro da inovação em Moçambique."
+      },
+      "title": "Nossos Valores",
+      "items": [
+        {
+          "title": "Inovação",
+          "description": "Estamos dedicados a transformar a economia de Moçambique com ideias inovadoras que impulsionam mudanças significativas.",
+          "icon": "✨"
+        },
+        {
+          "title": "Empoderamento",
+          "description": "Nosso foco é capacitar empreendedores locais, fornecendo-lhes as ferramentas e o suporte necessários para crescer.",
+          "icon": "💪"
+        },
+        {
+          "title": "Comunidade",
+          "description": "Valorizamos a construção de um ecossistema colaborativo onde cada indivíduo pode prosperar e contribuir para o crescimento do setor tecnológico e empreendedor de Moçambique.",
+          "icon": "🤝"
+        },
+        {
+          "title": "Educação e Conhecimento",
+          "description": "Promovemos o compartilhamento de conhecimento e habilidades através de mentoria e treinamento contínuo.",
+          "icon": "📚"
+        },
+        {
+          "title": "Sustentabilidade",
+          "description": "Trabalhamos para criar soluções que sejam sustentáveis econômica, social e ambientalmente.",
+          "icon": "🌱"
+        }
+      ]
+    }
   }
 }
