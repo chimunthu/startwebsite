@@ -1,9 +1,11 @@
 import React from 'react';
-import { Rocket, Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import { Rocket, Mail } from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
+import { socialLinks } from './socialData';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const currentYear = new Date().getFullYear().toString();
 
   return (
     <footer className="bg-footer-bg text-footer-text pt-16 pb-8">
@@ -64,23 +66,29 @@ const Footer = () => {
                 <Mail className="h-5 w-5" />
               </button>
             </div>
-            <div className="flex space-x-4">
-              <a href="#" className="text-footer-text/80 hover:text-footer-accent transition-colors" aria-label="Facebook">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-footer-text/80 hover:text-footer-accent transition-colors" aria-label="Twitter">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-footer-text/80 hover:text-footer-accent transition-colors" aria-label="Instagram">
-                <Instagram className="h-5 w-5" />
-              </a>
+            <div className="flex justify-center space-x-6 mt-8">
+              {socialLinks.map((social) => {
+                const Icon = social.icon;
+                return (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-footer-text/80 hover:text-footer-accent transition-colors"
+                    aria-label={social.name}
+                  >
+                    <Icon className="h-6 w-6" />
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-footer-text/60 text-sm">
           <p>
-            {t('footer.copyright', { year: new Date().getFullYear() })}
+            {t('footer.copyright').replace('{year}', currentYear)}
           </p>
         </div>
       </div>
