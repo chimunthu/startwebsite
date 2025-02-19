@@ -169,5 +169,113 @@
       "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network.",
       "button": "Apply for Investment"
     }
+  },
+  "about": {
+    "hero": {
+      "title": "Innovation with Purpose",
+      "subtitle": "We are an innovation hub that integrates faith and entrepreneurship, empowering leaders to build businesses that transform lives and generate positive impact in God's Kingdom."
+    },
+    "overview": {
+      "title": "About Start Space",
+      "paragraphs": [
+        "Start Space is more than a startup accelerator, we are a company that follows the <span class=\"font-bold text-primary\">Kingdom Business</span> concept. Our commitment to <span class=\"bg-primary/10 px-2 py-1 rounded\">excellence and integrity</span> reflects our goal of being a Kingdom of God business, where our work aims to positively impact the people and society around us.",
+        
+        "We believe that <span class=\"underline decoration-accent decoration-2\">innovation and entrepreneurship</span> are fundamental to economic and social growth, and we are committed to providing the tools and resources necessary for our entrepreneurs to reach their full potential, according to the <span class=\"font-bold text-primary\">values of God's Kingdom</span>.",
+        
+        "We combine the <span class=\"bg-accent/10 px-2 py-1 rounded\">experience and knowledge</span> of a startup accelerator with the training and capacity building of an organization like Sinapis, to help entrepreneurs develop their businesses <span class=\"font-bold\">ethically and with long-term vision</span>.",
+        
+        "Our team and our network of <span class=\"underline decoration-primary decoration-2\">partners and mentors</span> are committed to helping entrepreneurs overcome challenges and transform ideas into successful businesses, following Kingdom principles. We offer a wide range of services to support startup development, including <span class=\"bg-primary/10 px-2 py-1 rounded\">mentoring, training, networking, and investments</span>, always seeking excellence in our services and the positive impact we generate in society.",
+        
+        "If you are an <span class=\"font-bold text-accent\">entrepreneur</span> looking for support and resources for your startup, we are here to help you achieve your business goals, with an approach based on Kingdom values. Join us at Start Space and be part of an <span class=\"bg-accent/10 px-2 py-1 rounded\">innovative entrepreneur community</span> that is transforming the region and seeking to leave a lasting legacy."
+      ]
+    },
+    "history": {
+      "title": "Our History",
+      "methodologyTitle": "\"Arm, Brain, Pocket\" Methodology",
+      "methodology": {
+        "arm": {
+          "title": "Arm",
+          "description": "Physical support with workspaces, laboratories, and infrastructure to materialize ideas."
+        },
+        "brain": {
+          "title": "Brain",
+          "description": "Intellectual development through mentoring, workshops, and knowledge programs."
+        },
+        "pocket": {
+          "title": "Pocket",
+          "description": "Financial sustainability with access to funding, pitch competitions, and investor networking."
+        }
+      },
+      "timeline": [
+        {
+          "year": "2020",
+          "title": "Start Space Foundation",
+          "description": "We were born with the vision of uniting entrepreneurship and Christian values, establishing the foundation for an environment where innovation and human values meet.",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2021",
+          "title": "First Acceleration Cohort",
+          "description": "In 2021, we launched our pioneering acceleration program, where 20 startups were transformed through our unique methodology.",
+          "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2022",
+          "title": "Official Registration and National Expansion",
+          "description": "In 2022, we formalized our existence with Start Space's official registration, which allowed us to expand our operations nationally, strengthening our impact throughout Mozambique.",
+          "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2023",
+          "title": "Strategic Partnerships",
+          "description": "In 2023, we established strategic partnerships with local and international organizations, expanding our reach and enriching our innovation ecosystem with new perspectives and resources.",
+          "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800"
+        },
+        {
+          "year": "2024",
+          "title": "Three Accelerated Cohorts",
+          "description": "In 2024, we managed to accelerate three cohorts in the same year, a significant milestone that demonstrates the maturity and capability of our methodology to scale support for entrepreneurs at different stages of development.",
+          "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800"
+        }
+      ]
+    },
+    "values": {
+      "mission": {
+        "title": "Our Mission",
+        "description": "At Start Space, our mission is to create sustainable and prosperous lives in Mozambique through innovative initiatives focused on human development. We believe in the power of integrating physical resources, shared knowledge, and financial support to transform ideas into reality."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "Our goal is to be a catalyst for change, empowering the next generation of entrepreneurs and innovators. We want to build an environment where creativity meets technology to solve real challenges, thus shaping the future of innovation in Mozambique."
+      },
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Innovation",
+          "description": "We are dedicated to transforming Mozambique's economy with innovative ideas that drive significant change.",
+          "icon": "✨"
+        },
+        {
+          "title": "Empowerment",
+          "description": "Our focus is on empowering local entrepreneurs by providing them with the tools and support needed to grow.",
+          "icon": "💪"
+        },
+        {
+          "title": "Community",
+          "description": "We value building a collaborative ecosystem where each individual can thrive and contribute to the growth of Mozambique's technology and entrepreneurship sector.",
+          "icon": "🤝"
+        },
+        {
+          "title": "Education & Knowledge",
+          "description": "We promote knowledge and skills sharing through continuous mentoring and training.",
+          "icon": "📚"
+        },
+        {
+          "title": "Sustainability",
+          "description": "We work to create solutions that are economically, socially, and environmentally sustainable.",
+          "icon": "🌱"
+        }
+      ]
+    }
   }
 }

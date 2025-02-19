@@ -3,7 +3,7 @@ import Hero from './sections/Hero';
 import Overview from './sections/Overview';
 import History from './sections/History';
 import Values from './sections/Values';
-import SuccessStories from './sections/SuccessStories';
+//import SuccessStories from './sections/SuccessStories';
 import Partners from './sections/Partners';
 
 const AboutPage = () => {
@@ -13,7 +13,6 @@ const AboutPage = () => {
       <Overview />
       <History />
       <Values />
-      <SuccessStories />
       <Partners />
     </div>
   );
