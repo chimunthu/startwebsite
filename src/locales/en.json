@@ -149,9 +149,13 @@
     "copyright": "© {year} Start Space. All rights reserved."
   },
   "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Complete solutions to transform your idea into a successful business, with specialized support at every step of the journey."
+    },
     "acceleration": {
       "title": "Startup Acceleration",
-      "description": "Intensive acceleration program with specialized mentoring, resources, and support to boost your business growth.",
+      "description": "Intensive acceleration program with specialized mentoring, resources and support to boost your business growth.",
       "button": "Apply Now"
     },
     "incubation": {
@@ -168,6 +172,27 @@
       "title": "Investments",
       "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network.",
       "button": "Apply for Investment"
+    },
+    "uniqueApproach": {
+      "title": "Our Unique Approach",
+      "description": "The 'Arm, Pocket, Brain' approach is a comprehensive strategy adopted by Start Space to boost ideas and nurture talent in Mozambique’s entrepreneurial scene.",
+      "approaches": {
+        "braco": {
+          "title": "Arm",
+          "description": "We provide operational support and practical tools to help implement and execute your business strategies.",
+          "color": "accent"
+        },
+        "bolso": {
+          "title": "Pocket",
+          "description": "We connect you with investment opportunities and financial resources to drive your business growth.",
+          "color": "primary"
+        },
+        "cerebro": {
+          "title": "Brain",
+          "description": "We offer specialized mentorship and practical knowledge to develop the skills necessary for your business success.",
+          "color": "primary"
+        }
+      }
     }
   },
   "about": {
