@@ -50,7 +50,7 @@
     },
     "services": {
       "title": "Nossos Serviços",
-      "subtitle": "Soluções completas para transformar sua ideia em um negócio de sucesso",
+      "subtitle": "Soluções completas para transformar sua ideia em um negócio de sucesso, com suporte especializado em cada etapa da jornada.",
       "items": [
         {
           "title": "Aceleração de Startups",
@@ -149,6 +149,13 @@
     "copyright": "© {year} Start Space. Todos os direitos reservados."
   },
   "services": {
+    "filters": {
+      "all": "Todos",
+      "acceleration": "Aceleração",
+      "incubation": "Incubação",
+      "networking": "Networking",
+      "investment": "Investimentos"
+    },
     "acceleration": {
       "title": "Aceleração de Startups",
       "description": "Programa intensivo de aceleração com mentoria especializada, recursos e suporte para impulsionar o crescimento do seu negócio.",
@@ -168,6 +175,31 @@
       "title": "Investimentos",
       "description": "Oportunidade de investimento para startups alinhadas com nossos valores. Conectamos você com nossa rede de investidores.",
       "button": "Candidate-se para Investimento"
+    },
+    "hero": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções completas para transformar sua ideia em um negócio de sucesso, com suporte especializado em cada etapa da jornada."
+    },
+    "uniqueApproach": {
+      "title": "Nossa Abordagem Única",
+      "description": "A abordagem \"Braço, Bolso, Cérebro\" é uma estratégia abrangente adotada pela Start Space para impulsionar ideias e fomentar talentos no cenário empreendedor de Moçambique.",
+      "approaches": {
+        "braco": {
+          "title": "Braço",
+          "description": "Fornecemos suporte operacional e ferramentas práticas para ajudar a implementar e executar suas estratégias de negócio.",
+          "color": "accent"
+        },
+        "bolso": {
+          "title": "Bolso",
+          "description": "Conectamos você com oportunidades de investimento e recursos financeiros para impulsionar o crescimento do seu negócio.",
+          "color": "primary"
+        },
+        "cerebro": {
+          "title": "Cérebro",
+          "description": "Oferecemos mentoria especializada e conhecimento prático para desenvolver as habilidades necessárias para o sucesso do seu negócio.",
+          "color": "primary"
+        }
+      }
     }
   },
   "about": {
