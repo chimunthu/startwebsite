@@ -149,6 +149,13 @@
     "copyright": "© {year} Start Space. Todos os direitos reservados."
   },
   "services": {
+    "filters": {
+      "all": "Todos",
+      "acceleration": "Aceleração",
+      "incubation": "Incubação",
+      "networking": "Networking",
+      "investment": "Investimentos"
+    },
     "acceleration": {
       "title": "Aceleração de Startups",
       "description": "Programa intensivo de aceleração com mentoria especializada, recursos e suporte para impulsionar o crescimento do seu negócio.",

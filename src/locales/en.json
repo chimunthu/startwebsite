@@ -153,6 +153,13 @@
       "title": "Our Services",
       "subtitle": "Complete solutions to transform your idea into a successful business, with specialized support at every step of the journey."
     },
+    "filters": {
+      "all": "All Services",
+      "acceleration": "Startup Acceleration",
+      "incubation": "Incubation Program",
+      "networking": "Networking Events",
+      "investment": "Investments"
+    },
     "acceleration": {
       "title": "Startup Acceleration",
       "description": "Intensive acceleration program with specialized mentoring, resources and support to boost your business growth.",
