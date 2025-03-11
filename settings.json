@@ -1,0 +1,37 @@
+{
+    "translation.rules": {
+      "keyFormat": {
+        "pattern": "^[a-z]+\\.[a-z]+[a-zA-Z0-9]*$",
+        "description": "Use dot notation and camelCase (e.g., page.homeTitle)"
+      },
+      "sections": {
+        "page": "Page-specific content",
+        "common": "Reusable components and elements",
+        "error": "Error messages",
+        "form": "Form-related content"
+      },
+      "variableFormat": {
+        "pattern": "{[a-zA-Z]+}",
+        "description": "Use curly braces for variables (e.g., {userName})"
+      },
+      "guidelines": [
+        "Group related translations under common prefixes",
+        "Avoid duplicate keys across different sections",
+        "Document all variables in comments",
+        "Keep translations consistent across languages"
+      ],
+      "examples": {
+        "valid": [
+          "page.home.title",
+          "common.buttons.save",
+          "error.notFound",
+          "form.validation.required"
+        ],
+        "invalid": [
+          "PAGE_TITLE",
+          "home-title",
+          "buttons/save"
+        ]
+      }
+    }
+  }
