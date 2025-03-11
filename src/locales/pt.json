@@ -95,7 +95,11 @@
       "title": "Junte-se à Nossa Comunidade",
       "subtitle": "Conecte-se com empreendedores que compartilham dos mesmos valores",
       "description": "Faça parte de uma rede crescente de empreendedores cristãos dedicados a fazer a diferença",
-      "joinButton": "Junte-se Agora"
+      "joinButton": "Junte-se Agora",
+      "hero": {
+        "title": "Nossa Comunidade",
+        "subtitle": "Uma rede vibrante de empreendedores, mentores e inovadores unidos pelo propósito de transformar ideias em negócios de impacto."
+      }
     },
     "testimonials": {
       "title": "Histórias de Sucesso",
@@ -306,6 +310,44 @@
           "title": "Sustentabilidade",
           "description": "Trabalhamos para criar soluções que sejam sustentáveis econômica, social e ambientalmente.",
           "icon": "🌱"
+        }
+      ]
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "Nossa Comunidade",
+      "subtitle": "Uma rede vibrante de empreendedores, mentores e inovadores unidos pelo propósito de transformar ideias em negócios de impacto."
+    },
+    "join": {
+      "title": "Faça Parte da Nossa Comunidade",
+      "description": "Acreditamos que a construção de uma comunidade forte e colaborativa é fundamental para o sucesso de qualquer empreendedor. Junte-se a nós e faça parte de uma comunidade vibrante de inovadores em Beira, Moçambique e além.",
+      "button": "Quero Fazer Parte"
+    },
+    "overview": {
+      "title": "Nossa Comunidade",
+      "description1": "No Start Space, estamos construindo uma comunidade vibrante e colaborativa de startups, empreendedores, mentores e parceiros de negócios. Nosso objetivo é fornecer um ambiente de suporte e crescimento para todos os membros da nossa comunidade.",
+      "description2": "Estamos empenhados em impulsionar a inovação e o empreendedorismo em Beira, Moçambique e além, criando um ecossistema próspero de negócios com propósito."
+    },
+    "benefits": {
+      "title": "Benefícios da Nossa Comunidade",
+      "description": "Como membro da comunidade do Start Space, você terá acesso a uma variedade de recursos e oportunidades para impulsionar seu negócio.",
+      "items": [
+        {
+          "title": "Networking",
+          "description": "Participe de eventos regulares exclusivos onde você poderá conectar-se com outros empreendedores, investidores e membros do ecossistema de inovação. Nossas atividades são projetadas para criar conexões significativas e duradouras."
+        },
+        {
+          "title": "Mentoria",
+          "description": "Tenha acesso a mentores experientes em diversos setores que irão compartilhar conhecimentos valiosos e orientações práticas para ajudar você a superar desafios e acelerar o crescimento do seu negócio."
+        },
+        {
+          "title": "Recursos",
+          "description": "Aproveite nossa biblioteca completa de ferramentas, treinamentos especializados e suporte administrativo dedicado para impulsionar sua startup. Oferecemos recursos práticos e atualizados para cada estágio do seu negócio."
+        },
+        {
+          "title": "Parcerias",
+          "description": "Explore oportunidades únicas de colaboração com empresas e instituições em nossa rede global. Facilitamos conexões estratégicas que podem abrir portas para novos mercados e possibilidades de crescimento."
         }
       ]
     }

@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, startTransition } from 'react';
 
 interface LanguageContextType {
   currentLanguage: string;
@@ -33,12 +33,11 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     setIsLoading(false);
   }, [currentLanguage]);
 
-  const setLanguage = (lang: string) => {
-    if (lang !== currentLanguage) {
-      setIsLoading(true);
+  const changeLanguage = useCallback((lang: string) => {
+    startTransition(() => {
       setCurrentLanguage(lang);
-    }
-  };
+    });
+  }, []);
 
   if (isLoading) {
     return <div className="min-h-screen flex items-center justify-center">
@@ -47,7 +46,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   }
 
   return (
-    <LanguageContext.Provider value={{ currentLanguage, setLanguage, isLoading }}>
+    <LanguageContext.Provider value={{ currentLanguage, setLanguage: changeLanguage, isLoading }}>
       {children}
     </LanguageContext.Provider>
   );
