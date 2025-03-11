@@ -3,7 +3,7 @@
     "buttons": {
       "startNow": "START NOW",
       "learnMore": "LEARN MORE",
-      "contactUs": "Contact Us",
+      "contactUs": "CONTACT US",
       "joinNow": "JOIN NOW"
     },
     "menu": {
@@ -18,8 +18,8 @@
       "slides": [
         {
           "title": "Empower Your Vision",
-          "subtitle": "Transform Your Ideas Into Reality",
-          "description": "Access top-notch workspaces and tools to build your future.",
+          "subtitle": "Turn Your Ideas Into Reality",
+          "description": "Access first-class workspaces and tools to build your future.",
           "theme": "Arm - Physical Strength to Achieve Goals",
           "actions": {
             "primary": "Learn More",
@@ -28,7 +28,7 @@
         },
         {
           "title": "Knowledge is Power",
-          "subtitle": "Learn from the Best to Innovate",
+          "subtitle": "Learn From the Best to Innovate",
           "description": "Mentorship and training programs to sharpen your skills.",
           "theme": "Brain - Shared Knowledge for Innovation",
           "actions": {
@@ -37,10 +37,10 @@
           }
         },
         {
-          "title": "Fuel Your Growth",
-          "subtitle": "From Seed to Scale",
-          "description": "Access funding, grants, and investor networks to propel your startup.",
-          "theme": "Pocket - Financial Resources to Grow",
+          "title": "Boost Your Growth",
+          "subtitle": "From Seed to Growth",
+          "description": "Access funding, grants, and investor networks to scale your startup.",
+          "theme": "Wallet - Financial Resources to Grow",
           "actions": {
             "primary": "Discover Opportunities",
             "secondary": "Contact Us"
@@ -50,33 +50,33 @@
     },
     "services": {
       "title": "Our Services",
-      "subtitle": "Complete solutions to transform your idea into a successful business",
+      "subtitle": "Complete solutions to turn your idea into a successful business, with expert support every step of the way.",
       "items": [
         {
           "title": "Startup Acceleration",
-          "description": "Intensive acceleration program with specialized mentoring, resources, and support to boost your business growth."
+          "description": "An intensive acceleration program with specialized mentorship, resources, and support to boost your business growth."
         },
         {
           "title": "Incubation Program",
-          "description": "Complete support for early-stage startups, including workspace, mentoring, and access to our partner network."
+          "description": "Comprehensive support for early-stage startups, including workspace, mentorship, and access to our network of partners."
         },
         {
           "title": "Networking Events",
-          "description": "Connect with other entrepreneurs, mentors, and investors in our exclusive networking and knowledge events."
+          "description": "Connect with other entrepreneurs, mentors, and investors at our exclusive networking and knowledge sharing events."
         },
         {
           "title": "Investments",
-          "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network."
+          "description": "Investment opportunities for startups aligned with our values. We connect you with our network of investors."
         }
       ]
     },
     "features": {
       "title": "Why Choose Us",
-      "subtitle": "Benefits that set us apart",
+      "subtitle": "Benefits That Set Us Apart",
       "items": [
         {
           "title": "Christian Values",
-          "description": "Build your business on strong ethical foundations",
+          "description": "Build your business on a foundation of strong ethical principles",
           "icon": "Heart"
         },
         {
@@ -86,55 +86,69 @@
         },
         {
           "title": "Innovation Focus",
-          "description": "Stay ahead with cutting-edge business practices",
+          "description": "Stay ahead with innovative business practices",
           "icon": "Lightbulb"
         }
       ]
     },
     "community": {
-      "title": "Join Our Community",
-      "subtitle": "Connect with like-minded entrepreneurs",
-      "description": "Be part of a growing network of Christian entrepreneurs dedicated to making a difference",
-      "joinButton": "Join Now"
+      "hero": {
+        "title": "Our Community",
+        "subtitle": "A vibrant network of entrepreneurs, mentors, and innovators united by the purpose of transforming ideas into impactful businesses."
+      },
+      "join": {
+        "title": "Join Our Community",
+        "description": "We believe that building a strong and collaborative community is key to the success of any entrepreneur. Join us and be part of a vibrant network of innovators in Beira, Mozambique and beyond.",
+        "button": "Join Now"
+      },
+      "overview": {
+        "title": "Our Community",
+        "description1": "At Start Space, we're building a vibrant and collaborative community of startups, entrepreneurs, mentors, and business partners. Our goal is to provide a supportive environment that fosters growth for all community members.",
+        "description2": "We are dedicated to driving innovation and entrepreneurship in Beira, Mozambique and beyond, creating an ecosystem of purpose-driven, prosperous businesses."
+      },
+      "benefits": {
+        "title": "Community Benefits",
+        "description": "As a member of the Start Space community, you will have access to a wide range of resources and opportunities to propel your business forward."
+      }
     },
     "testimonials": {
       "title": "Success Stories",
       "subtitle": "Hear from our community members",
       "items": [
         {
-          "name": "John Smith",
-          "role": "Tech Startup Founder",
+          "name": "John Doe",
+          "role": "Startup Founder",
           "company": "TechVision",
-          "text": "Start Space helped me turn my idea into a thriving business with strong Christian values."
+          "text": "Start Space helped transform my idea into a thriving business built on strong Christian values."
         },
         {
-          "name": "Sarah Johnson",
+          "name": "Jane Smith",
           "role": "Social Entrepreneur",
           "company": "EcoSolutions",
-          "text": "The mentoring and community support here is unlike anything I've experienced before."
+          "text": "The mentorship and support here are unlike anything I've experienced before."
         },
         {
           "name": "Michael Brown",
           "role": "Innovation Director",
           "company": "Future Labs",
-          "text": "The acceleration program gave us the tools we needed to scale our business sustainably."
+          "text": "The acceleration program provided us with the tools needed to scale our business sustainably."
         },
         {
-          "name": "Emma Wilson",
+          "name": "Emily Johnson",
           "role": "CEO",
           "company": "Health Tech",
-          "text": "Finding investors aligned with our values was crucial. Start Space made that connection possible."
+          "text": "Finding investors who share our values was crucial—and Start Space made that connection possible."
         }
       ]
     },
     "cta": {
       "title": "Ready to Start Your Journey?",
       "description": "Join our community of Christian entrepreneurs today",
-      "button": "Get Started"
+      "button": "Start Now"
     }
   },
   "footer": {
-    "description": "Transforming entrepreneurs into impact leaders through mentoring, networking, and Christian values.",
+    "description": "Transforming entrepreneurs into impactful leaders through mentorship, networking, and Christian values.",
     "quickLinks": {
       "title": "Quick Links",
       "about": "About Us",
@@ -149,40 +163,40 @@
     "copyright": "© {year} Start Space. All rights reserved."
   },
   "services": {
-    "hero": {
-      "title": "Our Services",
-      "subtitle": "Complete solutions to transform your idea into a successful business, with specialized support at every step of the journey."
-    },
     "filters": {
-      "all": "All Services",
-      "acceleration": "Startup Acceleration",
-      "incubation": "Incubation Program",
-      "networking": "Networking Events",
+      "all": "All",
+      "acceleration": "Acceleration",
+      "incubation": "Incubation",
+      "networking": "Networking",
       "investment": "Investments"
     },
     "acceleration": {
       "title": "Startup Acceleration",
-      "description": "Intensive acceleration program with specialized mentoring, resources and support to boost your business growth.",
-      "button": "Apply Now"
+      "description": "An intensive acceleration program with specialized mentorship, resources, and support to boost your business growth.",
+      "button": "Enroll Now"
     },
     "incubation": {
       "title": "Incubation Program",
-      "description": "Complete support for early-stage startups, including workspace, mentoring, and access to our partner network.",
+      "description": "Comprehensive support for early-stage startups, including workspace, mentorship, and access to our network of partners.",
       "button": "Learn More"
     },
     "networking": {
       "title": "Networking Events",
-      "description": "Connect with other entrepreneurs, mentors, and investors in our exclusive networking and knowledge events.",
-      "button": "Join an Event"
+      "description": "Connect with other entrepreneurs, mentors, and investors at our exclusive networking and knowledge sharing events.",
+      "button": "Attend an Event"
     },
     "investment": {
       "title": "Investments",
-      "description": "Investment opportunity for startups aligned with our values. We connect you with our investor network.",
+      "description": "Investment opportunities for startups aligned with our values. We connect you with our network of investors.",
       "button": "Apply for Investment"
+    },
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Complete solutions to transform your idea into a successful business with expert support every step of the way."
     },
     "uniqueApproach": {
       "title": "Our Unique Approach",
-      "description": "The 'Arm, Pocket, Brain' approach is a comprehensive strategy adopted by Start Space to boost ideas and nurture talent in Mozambique’s entrepreneurial scene.",
+      "description": "The \"Arm, Wallet, Brain\" approach is a comprehensive strategy adopted by Start Space to propel ideas and nurture talent in Mozambique's entrepreneurial scene.",
       "approaches": {
         "braco": {
           "title": "Arm",
@@ -190,13 +204,13 @@
           "color": "accent"
         },
         "bolso": {
-          "title": "Pocket",
+          "title": "Wallet",
           "description": "We connect you with investment opportunities and financial resources to drive your business growth.",
           "color": "primary"
         },
         "cerebro": {
           "title": "Brain",
-          "description": "We offer specialized mentorship and practical knowledge to develop the skills necessary for your business success.",
+          "description": "We offer specialized mentorship and hands-on knowledge to develop the skills essential for your business success.",
           "color": "primary"
         }
       }
@@ -204,69 +218,65 @@
   },
   "about": {
     "hero": {
-      "title": "Innovation with Purpose",
-      "subtitle": "We are an innovation hub that integrates faith and entrepreneurship, empowering leaders to build businesses that transform lives and generate positive impact in God's Kingdom."
+      "title": "Innovation With Purpose",
+      "subtitle": "We are an innovation hub that integrates faith and entrepreneurship, empowering leaders to build businesses that transform lives and create positive impact in God's Kingdom."
     },
     "overview": {
       "title": "About Start Space",
       "paragraphs": [
-        "Start Space is more than a startup accelerator, we are a company that follows the <span class=\"font-bold text-primary\">Kingdom Business</span> concept. Our commitment to <span class=\"bg-primary/10 px-2 py-1 rounded\">excellence and integrity</span> reflects our goal of being a Kingdom of God business, where our work aims to positively impact the people and society around us.",
-        
-        "We believe that <span class=\"underline decoration-accent decoration-2\">innovation and entrepreneurship</span> are fundamental to economic and social growth, and we are committed to providing the tools and resources necessary for our entrepreneurs to reach their full potential, according to the <span class=\"font-bold text-primary\">values of God's Kingdom</span>.",
-        
-        "We combine the <span class=\"bg-accent/10 px-2 py-1 rounded\">experience and knowledge</span> of a startup accelerator with the training and capacity building of an organization like Sinapis, to help entrepreneurs develop their businesses <span class=\"font-bold\">ethically and with long-term vision</span>.",
-        
-        "Our team and our network of <span class=\"underline decoration-primary decoration-2\">partners and mentors</span> are committed to helping entrepreneurs overcome challenges and transform ideas into successful businesses, following Kingdom principles. We offer a wide range of services to support startup development, including <span class=\"bg-primary/10 px-2 py-1 rounded\">mentoring, training, networking, and investments</span>, always seeking excellence in our services and the positive impact we generate in society.",
-        
-        "If you are an <span class=\"font-bold text-accent\">entrepreneur</span> looking for support and resources for your startup, we are here to help you achieve your business goals, with an approach based on Kingdom values. Join us at Start Space and be part of an <span class=\"bg-accent/10 px-2 py-1 rounded\">innovative entrepreneur community</span> that is transforming the region and seeking to leave a lasting legacy."
+        "Start Space is more than a startup accelerator; we follow the concept of <span class=\"font-bold text-primary\">Kingdom Business</span>. Our commitment to <span class=\"bg-primary/10 px-2 py-1 rounded\">excellence and integrity</span> reflects our goal to operate as a business of God's Kingdom, impacting people and society around us.",
+        "We believe that <span class=\"underline decoration-accent decoration-2\">innovation and entrepreneurship</span> are essential for economic and social growth, and we are dedicated to providing the tools and resources necessary for our entrepreneurs to reach their full potential in line with <span class=\"font-bold text-primary\">God's values</span>.",
+        "We combine the <span class=\"bg-accent/10 px-2 py-1 rounded\">experience and knowledge</span> of a startup accelerator with the training and empowerment of an organization like Sinapis to help entrepreneurs build ethical, long-term businesses.",
+        "Our team and network of <span class=\"underline decoration-primary decoration-2\">partners and mentors</span> are committed to helping entrepreneurs overcome challenges and transform ideas into successful businesses, guided by God's principles. We offer a wide range of services, including <span class=\"bg-primary/10 px-2 py-1 rounded\">mentorship, training, networking, and investments</span>, always striving for excellence and positive impact.",
+        "If you're an <span class=\"font-bold text-accent\">entrepreneur</span> looking for support and resources for your startup, we're here to help you achieve your business goals with values rooted in God's Kingdom. Join us at Start Space and be part of a <span class=\"bg-accent/10 px-2 py-1 rounded\">community of innovative entrepreneurs</span> transforming the region and leaving a lasting legacy."
       ]
     },
     "history": {
       "title": "Our History",
-      "methodologyTitle": "\"Arm, Brain, Pocket\" Methodology",
+      "methodologyTitle": "The \"ABC\" Methodology",
       "methodology": {
         "arm": {
           "title": "Arm",
-          "description": "Physical support with workspaces, laboratories, and infrastructure to materialize ideas."
+          "description": "The physical base of the business: workspaces, laboratories, and comprehensive infrastructure to bring ideas to life."
+        },
+        "pocket": {
+          "title": "Wallet",
+          "description": "The financial base: access to funding, pitch opportunities, and networking with investors to secure resources."
         },
         "brain": {
           "title": "Brain",
-          "description": "Intellectual development through mentoring, workshops, and knowledge programs."
-        },
-        "pocket": {
-          "title": "Pocket",
-          "description": "Financial sustainability with access to funding, pitch competitions, and investor networking."
+          "description": "The intellectual base: mentorship programs, workshops, and training to develop essential skills and knowledge."
         }
       },
       "timeline": [
         {
           "year": "2020",
-          "title": "Start Space Foundation",
-          "description": "We were born with the vision of uniting entrepreneurship and Christian values, establishing the foundation for an environment where innovation and human values meet.",
+          "title": "Foundation of Start Space",
+          "description": "We began with the vision of uniting entrepreneurship with Christian values, laying the groundwork for an environment where innovation meets humanity.",
           "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800"
         },
         {
           "year": "2021",
-          "title": "First Acceleration Cohort",
-          "description": "In 2021, we launched our pioneering acceleration program, where 20 startups were transformed through our unique methodology.",
+          "title": "First Acceleration Batch",
+          "description": "In 2021, we launched our pioneering acceleration program, transforming 20 startups with our unique methodology.",
           "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800"
         },
         {
           "year": "2022",
           "title": "Official Registration and National Expansion",
-          "description": "In 2022, we formalized our existence with Start Space's official registration, which allowed us to expand our operations nationally, strengthening our impact throughout Mozambique.",
+          "description": "In 2022, we formalized Start Space, which enabled us to expand our operations nationwide and strengthen our impact across Mozambique.",
           "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800"
         },
         {
           "year": "2023",
           "title": "Strategic Partnerships",
-          "description": "In 2023, we established strategic partnerships with local and international organizations, expanding our reach and enriching our innovation ecosystem with new perspectives and resources.",
+          "description": "In 2023, we forged strategic partnerships with local and international organizations, broadening our reach and enriching our innovation ecosystem.",
           "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800"
         },
         {
           "year": "2024",
-          "title": "Three Accelerated Cohorts",
-          "description": "In 2024, we managed to accelerate three cohorts in the same year, a significant milestone that demonstrates the maturity and capability of our methodology to scale support for entrepreneurs at different stages of development.",
+          "title": "Three Accelerated Batches",
+          "description": "In 2024, we accelerated three batches in one year—a significant milestone demonstrating our methodology’s ability to scale support for entrepreneurs at various stages.",
           "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800"
         }
       ]
@@ -274,11 +284,11 @@
     "values": {
       "mission": {
         "title": "Our Mission",
-        "description": "At Start Space, our mission is to create sustainable and prosperous lives in Mozambique through innovative initiatives focused on human development. We believe in the power of integrating physical resources, shared knowledge, and financial support to transform ideas into reality."
+        "description": "At Start Space, our mission is to create sustainable and prosperous lives in Mozambique through innovative initiatives focused on human development. We believe in integrating physical resources, shared knowledge, and financial support to turn ideas into reality."
       },
       "vision": {
         "title": "Our Vision",
-        "description": "Our goal is to be a catalyst for change, empowering the next generation of entrepreneurs and innovators. We want to build an environment where creativity meets technology to solve real challenges, thus shaping the future of innovation in Mozambique."
+        "description": "Our goal is to be a catalyst for change, empowering the next generation of entrepreneurs and innovators. We strive to create an environment where creativity and technology come together to solve real challenges, shaping the future of innovation in Mozambique."
       },
       "title": "Our Values",
       "items": [
@@ -289,23 +299,61 @@
         },
         {
           "title": "Empowerment",
-          "description": "Our focus is on empowering local entrepreneurs by providing them with the tools and support needed to grow.",
+          "description": "Our focus is on empowering local entrepreneurs by providing the tools and support necessary to grow.",
           "icon": "💪"
         },
         {
           "title": "Community",
-          "description": "We value building a collaborative ecosystem where each individual can thrive and contribute to the growth of Mozambique's technology and entrepreneurship sector.",
+          "description": "We value creating a collaborative ecosystem where each individual can thrive and contribute to the growth of Mozambique’s tech and entrepreneurial sectors.",
           "icon": "🤝"
         },
         {
           "title": "Education & Knowledge",
-          "description": "We promote knowledge and skills sharing through continuous mentoring and training.",
+          "description": "We promote the sharing of knowledge and skills through continuous mentorship and training.",
           "icon": "📚"
         },
         {
           "title": "Sustainability",
           "description": "We work to create solutions that are economically, socially, and environmentally sustainable.",
           "icon": "🌱"
+        }
+      ]
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "Our Community",
+      "subtitle": "A vibrant network of entrepreneurs, mentors, and innovators united by the purpose of transforming ideas into impactful businesses."
+    },
+    "join": {
+      "title": "Join Our Community",
+      "description": "We believe that building a strong and collaborative community is key to the success of any entrepreneur. Join us and be part of a vibrant network of innovators in Beira, Mozambique and beyond.",
+      "button": "I Want to Join"
+    },
+    "overview": {
+      "title": "Our Community",
+      "description1": "At Start Space, we're building a vibrant and collaborative community of startups, entrepreneurs, mentors, and business partners. Our goal is to provide a supportive environment that fosters growth for all community members.",
+      "description2": "We are dedicated to driving innovation and entrepreneurship in Beira, Mozambique and beyond, creating an ecosystem of purpose-driven, prosperous businesses."
+    },
+    "benefits": {
+      "title": "Community Benefits",
+      "description": "As a member of the Start Space community, you will have access to a wide range of resources and opportunities to propel your business forward.",
+      "items": [
+        {
+          "title": "Networking",
+          "description": "Join regular exclusive events where you can connect with other entrepreneurs, investors, and members of the innovation ecosystem. Our activities are designed to create meaningful and lasting connections."
+        },
+        {
+          "title": "Mentoring",
+          "description": "Get access to experienced mentors across various sectors who will share valuable knowledge and practical guidance to help you overcome challenges and accelerate your business growth."
+        },
+        {
+          "title": "Resources",
+          "description": "Take advantage of our complete library of tools, specialized training, and dedicated administrative support to boost your startup. We offer practical and up-to-date resources for every stage of your business."
+        },
+        {
+          "title": "Partnerships",
+          "description": "Explore unique collaboration opportunities with companies and institutions in our global network. We facilitate strategic connections that can open doors to new markets and growth possibilities."
         }
       ]
     }
