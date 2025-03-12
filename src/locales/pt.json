@@ -351,5 +351,72 @@
         }
       ]
     }
+  },
+  "contact": {
+    "hero": {
+      "title": "Fale Conosco",
+      "subtitle": "Estamos aqui para ajudar você a transformar suas ideias em realidade. Entre em contato conosco!"
+    },
+    "form": {
+      "title": "Envie sua mensagem",
+      "description": "Ficamos felizes em saber que você está interessado no Start Space! Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
+      "fields": {
+        "name": {
+          "label": "Nome",
+          "placeholder": "Seu nome"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "seu@email.com"
+        },
+        "subject": {
+          "label": "Assunto",
+          "placeholder": "Assunto da mensagem"
+        },
+        "message": {
+          "label": "Mensagem",
+          "placeholder": "Sua mensagem"
+        }
+      },
+      "button": "Enviar Mensagem"
+    },
+    "location": {
+      "title": "Nossa Localização"
+    },
+    "social": {
+      "title": "Conecte-se Conosco",
+      "description": "Siga-nos nas redes sociais para ficar por dentro das últimas novidades, eventos e oportunidades do Start Space.",
+      "links": {
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "info": {
+      "address": {
+        "title": "Endereço",
+        "line1": "Rua Principal, 123",
+        "line2": "Beira, Moçambique"
+      },
+      "phone": {
+        "title": "Telefone",
+        "numbers": [
+          "+258 123 456 789",
+          "+258 987 654 321"
+        ]
+      },
+      "email": {
+        "title": "Email",
+        "addresses": [
+          "contato@start.co.mz",
+          "info@start.co.mz"
+        ]
+      },
+      "hours": {
+        "title": "Horário",
+        "days": "Segunda - Sexta",
+        "time": "8:00 - 17:00"
+      }
+    }
   }
 }

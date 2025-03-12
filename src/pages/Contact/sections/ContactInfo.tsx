@@ -1,7 +1,10 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { useTranslation } from '../../../hooks/useTranslation';
 
 const ContactInfo = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-16 bg-bg-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,9 +15,9 @@ const ContactInfo = () => {
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-bold mb-2">Endereço</h3>
-                <p className="text-gray-600">Rua Principal, 123</p>
-                <p className="text-gray-600">Beira, Moçambique</p>
+                <h3 className="font-heading font-bold mb-2">{t('contact.info.address.title')}</h3>
+                <p className="text-gray-600">{t('contact.info.address.line1')}</p>
+                <p className="text-gray-600">{t('contact.info.address.line2')}</p>
               </div>
             </div>
           </div>
@@ -25,9 +28,9 @@ const ContactInfo = () => {
                 <Phone className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-bold mb-2">Telefone</h3>
-                <p className="text-gray-600">+258 123 456 789</p>
-                <p className="text-gray-600">+258 987 654 321</p>
+                <h3 className="font-heading font-bold mb-2">{t('contact.info.phone.title')}</h3>
+                <p className="text-gray-600">{t('contact.info.phone.line1')}</p>
+                <p className="text-gray-600">{t('contact.info.phone.line2')}</p>
               </div>
             </div>
           </div>
@@ -38,9 +41,9 @@ const ContactInfo = () => {
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-bold mb-2">Email</h3>
-                <p className="text-gray-600">contato@start.co.mz</p>
-                <p className="text-gray-600">info@start.co.mz</p>
+                <h3 className="font-heading font-bold mb-2">{t('contact.info.email.title')}</h3>
+                <p className="text-gray-600">{t('contact.info.email.line1')}</p>
+                <p className="text-gray-600">{t('contact.info.email.line2')}</p>
               </div>
             </div>
           </div>
@@ -51,9 +54,9 @@ const ContactInfo = () => {
                 <Clock className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading font-bold mb-2">Horário</h3>
-                <p className="text-gray-600">Segunda - Sexta</p>
-                <p className="text-gray-600">8:00 - 17:00</p>
+                <h3 className="font-heading font-bold mb-2">{t('contact.info.hours.title')}</h3>
+                <p className="text-gray-600">{t('contact.info.hours.line1')}</p>
+                <p className="text-gray-600">{t('contact.info.hours.line2')}</p>
               </div>
             </div>
           </div>

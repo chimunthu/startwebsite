@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from '../../hooks/useTranslation';
 import InternalHero from '../../components/hero/InternalHero';
 import ContactInfo from './sections/ContactInfo';
 import ContactForm from './sections/ContactForm';
@@ -6,11 +7,13 @@ import LocationMap from './sections/LocationMap';
 import SocialConnect from './sections/SocialConnect';
 
 const ContactPage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-white">
       <InternalHero
-        title="Fale Conosco"
-        subtitle="Estamos aqui para ajudar você a transformar suas ideias em realidade. Entre em contato conosco!"
+        title={t('contact.hero.title')}
+        subtitle={t('contact.hero.subtitle')}
         image="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6"
       />
       <ContactInfo />

@@ -357,5 +357,72 @@
         }
       ]
     }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help you transform your ideas into reality. Get in touch with us!"
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "We're excited to know you're interested in Start Space! Fill out the form below and we'll get back to you as soon as possible.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your@email.com"
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Message subject"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Your message"
+        }
+      },
+      "button": "Send Message"
+    },
+    "location": {
+      "title": "Our Location"
+    },
+    "social": {
+      "title": "Connect With Us",
+      "description": "Follow us on social media to stay up to date with the latest news, events, and opportunities at Start Space.",
+      "links": {
+        "facebook": "Facebook",
+        "linkedin": "LinkedIn",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "info": {
+      "address": {
+        "title": "Address",
+        "line1": "Main Street, 123",
+        "line2": "Beira, Mozambique"
+      },
+      "phone": {
+        "title": "Phone",
+        "numbers": [
+          "+258 123 456 789",
+          "+258 987 654 321"
+        ]
+      },
+      "email": {
+        "title": "Email",
+        "addresses": [
+          "contact@start.co.mz",
+          "info@start.co.mz"
+        ]
+      },
+      "hours": {
+        "title": "Hours",
+        "days": "Monday - Friday",
+        "time": "8:00 AM - 5:00 PM"
+      }
+    }
   }
 }
