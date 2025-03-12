@@ -29,8 +29,9 @@ const ContactInfo = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold mb-2">{t('contact.info.phone.title')}</h3>
-                <p className="text-gray-600">{t('contact.info.phone.line1')}</p>
-                <p className="text-gray-600">{t('contact.info.phone.line2')}</p>
+                {(t('contact.info.phone.numbers') as string[]).map((number, index) => (
+                  <p key={index} className="text-gray-600">{number}</p>
+                ))}
               </div>
             </div>
           </div>
@@ -42,8 +43,9 @@ const ContactInfo = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold mb-2">{t('contact.info.email.title')}</h3>
-                <p className="text-gray-600">{t('contact.info.email.line1')}</p>
-                <p className="text-gray-600">{t('contact.info.email.line2')}</p>
+                {(t('contact.info.email.addresses') as string[]).map((email, index) => (
+                  <p key={index} className="text-gray-600">{email}</p>
+                ))}
               </div>
             </div>
           </div>
@@ -55,8 +57,8 @@ const ContactInfo = () => {
               </div>
               <div>
                 <h3 className="font-heading font-bold mb-2">{t('contact.info.hours.title')}</h3>
-                <p className="text-gray-600">{t('contact.info.hours.line1')}</p>
-                <p className="text-gray-600">{t('contact.info.hours.line2')}</p>
+                <p className="text-gray-600">{t('contact.info.hours.days')}</p>
+                <p className="text-gray-600">{t('contact.info.hours.time')}</p>
               </div>
             </div>
           </div>
