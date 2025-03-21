@@ -1,19 +1,24 @@
-import { Linkedin, Facebook, Instagram } from 'lucide-react';
+import { Linkedin, Facebook, Instagram, MessageCircle } from 'lucide-react';
 
 export const socialLinks = [
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://linkedin.com/company/startspace',
+    url: 'https://www.linkedin.com/company/start-software-house/',
   },
   {
     name: 'Facebook',
     icon: Facebook,
-    url: 'https://facebook.com/startspace',
+    url: 'https://web.facebook.com/startmoz',
   },
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://instagram.com/startspace',
+    url: 'https://www.instagram.com/startmoz/#',
+  },
+  {
+    name: 'WhatsApp',
+    icon: MessageCircle,
+    url: 'https://chat.whatsapp.com/DJYUNvvDrjh0VztRL6AVGA',
   },
 ];
