@@ -7,6 +7,7 @@ import CommunityPage from './pages/Community/CommunityPage';
 import ContactPage from './pages/Contact/ContactPage';
 import MainLayout from './components/layout/MainLayout';
 import { LanguageProvider } from './contexts/LanguageContext';
+import MultiStepForm from './components/forms/MultiStepForm';
 
 function App() {
   return (
@@ -36,6 +37,11 @@ function App() {
           <Route path="/contato" element={
             <MainLayout>
               <ContactPage />
+            </MainLayout>
+          } />
+          <Route path="/registro" element={
+            <MainLayout>
+              <MultiStepForm />
             </MainLayout>
           } />
         </Routes>

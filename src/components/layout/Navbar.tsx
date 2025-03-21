@@ -55,6 +55,7 @@ const Navbar = () => {
             <Button 
               variant={isScrolled || location.pathname !== '/' ? "secondary" : "primary"}
               className={isScrolled || location.pathname !== '/' ? "border-accent text-accent hover:bg-accent hover:text-primary" : ""}
+              onClick={() => window.location.href = '/registro'}
             >
               {t('common.buttons.startNow')}
             </Button>
@@ -88,7 +89,10 @@ const Navbar = () => {
               <Button 
                 variant="secondary"
                 className="w-full text-center border-accent text-accent hover:bg-accent hover:text-primary"
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  setIsOpen(false);
+                  window.location.href = '/registro';
+                }}
               >
                 {t('common.buttons.startNow')}
               </Button>

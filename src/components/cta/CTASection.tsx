@@ -22,6 +22,7 @@ const CTASection = () => {
           <Button
             variant="secondary"
             className="bg-accent hover:bg-accent/90 text-primary  border-2 border-white text-lg px-12 py-4 font-bold"
+            onClick={() => window.location.href = '/registro'}
           >
             {t('home.cta.button')}
           </Button>
