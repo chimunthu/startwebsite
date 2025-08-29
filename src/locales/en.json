@@ -363,31 +363,19 @@
       "title": "Contact Us",
       "subtitle": "We're here to help you transform your ideas into reality. Get in touch with us!"
     },
-    "form": {
-      "title": "Send us a message",
-      "description": "We're excited to know you're interested in Start Space! Fill out the form below and we'll get back to you as soon as possible.",
-      "fields": {
-        "name": {
-          "label": "Name",
-          "placeholder": "Your name"
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "your@email.com"
-        },
-        "subject": {
-          "label": "Subject",
-          "placeholder": "Message subject"
-        },
-        "message": {
-          "label": "Message",
-          "placeholder": "Your message"
-        }
-      },
-      "button": "Send Message"
+    "detailed": {
+      "title": "Get in Touch With Us",
+      "description": "We're always available to help you transform your ideas into reality. Contact us through any of the channels below."
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Contact us directly via WhatsApp for faster service",
+      "button": "Open WhatsApp"
     },
     "location": {
-      "title": "Our Location"
+      "title": "Our Location",
+      "description": "Visit our office in Beira to meet our team and see our workspace.",
+      "directions": "Get Directions"
     },
     "social": {
       "title": "Connect With Us",
@@ -401,20 +389,18 @@
     "info": {
       "address": {
         "title": "Address",
-        "line1": "Main Street, 123",
-        "line2": "Beira, Mozambique"
+        "line1": "Alto da Manga District, National Road",
+        "line2": "Near the airport bridge, Beira"
       },
       "phone": {
         "title": "Phone",
         "numbers": [
-          "+258 123 456 789",
-          "+258 987 654 321"
+          "+258 84 616 5449"
         ]
       },
       "email": {
         "title": "Email",
         "addresses": [
-          "ebel@start.co.mz",
           "info@start.co.mz"
         ]
       },

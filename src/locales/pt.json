@@ -357,31 +357,19 @@
       "title": "Fale Conosco",
       "subtitle": "Estamos aqui para ajudar você a transformar suas ideias em realidade. Entre em contato conosco!"
     },
-    "form": {
-      "title": "Envie sua mensagem",
-      "description": "Ficamos felizes em saber que você está interessado no Start Space! Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
-      "fields": {
-        "name": {
-          "label": "Nome",
-          "placeholder": "Seu nome"
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "seu@email.com"
-        },
-        "subject": {
-          "label": "Assunto",
-          "placeholder": "Assunto da mensagem"
-        },
-        "message": {
-          "label": "Mensagem",
-          "placeholder": "Sua mensagem"
-        }
-      },
-      "button": "Enviar Mensagem"
+    "detailed": {
+      "title": "Entre em Contato Conosco",
+      "description": "Estamos sempre disponíveis para ajudar você a transformar suas ideias em realidade. Entre em contato através de qualquer um dos canais abaixo."
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Fale conosco diretamente pelo WhatsApp para um atendimento mais rápido",
+      "button": "Abrir WhatsApp"
     },
     "location": {
-      "title": "Nossa Localização"
+      "title": "Nossa Localização",
+      "description": "Visite nosso escritório em Beira para conhecer nossa equipe e espaço de trabalho.",
+      "directions": "Ver Direções"
     },
     "social": {
       "title": "Conecte-se Conosco",
@@ -395,20 +383,18 @@
     "info": {
       "address": {
         "title": "Endereço",
-        "line1": "Rua Principal, 123",
-        "line2": "Beira, Moçambique"
+        "line1": "Bairro Alto da Manga, Estrada Nacional",
+        "line2": "Próximo à ponte do aeroporto, Beira"
       },
       "phone": {
         "title": "Telefone",
         "numbers": [
-          "+258 123 456 789",
-          "+258 987 654 321"
+          "+258 84 616 5449"
         ]
       },
       "email": {
         "title": "Email",
         "addresses": [
-          "ebel@start.co.mz",
           "info@start.co.mz"
         ]
       },
