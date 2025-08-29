@@ -32,7 +32,7 @@ const HeroSlider = () => {
   ];
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative h-[70vh] overflow-hidden">
 
       {slides.map((slide, index) => (
         <div
@@ -42,7 +42,7 @@ const HeroSlider = () => {
           }`}
         >
           <HeroOverlay image={heroImages[index]}>
-            <div className="min-h-screen flex items-center">
+            <div className="h-[70vh] flex items-center">
               <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
                 {/* Adjusted margin-top to account for logo space */}
                 <div className="text-white relative z-10 mt-24 md:mt-0">

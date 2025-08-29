@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /services
+Allow: /community
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://start.co.mz/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all public assets
+Allow: /assets/
+Allow: /images/
+Allow: /fonts/
+Allow: /css/
+Allow: /js/
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 10 
