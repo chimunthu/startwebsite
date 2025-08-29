@@ -14,7 +14,7 @@ export const socialLinks = [
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://www.instagram.com/startmoz/#',
+    url: 'https://www.instagram.com/startmoz/',
   },
   {
     name: 'WhatsApp',

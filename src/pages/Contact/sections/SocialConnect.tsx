@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Linkedin, MessageCircle } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, MessageCircle } from 'lucide-react';
 import { useTranslation } from '../../../hooks/useTranslation';
 
 const SocialConnect = () => {
@@ -17,21 +17,36 @@ const SocialConnect = () => {
         
         <div className="flex justify-center gap-8">
           <a 
-            href="#" 
+            href="https://web.facebook.com/startmoz" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
             aria-label={t('contact.social.links.facebook')}
           >
             <Facebook className="w-7 h-7 text-primary" />
           </a>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/company/start-software-house/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
             aria-label="LinkedIn"
           >
             <Linkedin className="w-7 h-7 text-primary" />
           </a>
           <a 
-            href="https://wa.me/258123456789" 
+            href="https://www.instagram.com/startmoz/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+            aria-label="Instagram"
+          >
+            <Instagram className="w-7 h-7 text-primary" />
+          </a>
+          <a 
+            href="https://chat.whatsapp.com/DJYUNvvDrjh0VztRL6AVGA" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
             aria-label="WhatsApp"
           >

@@ -24,7 +24,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <nav 
+    <nav
       className={`
         fixed w-full z-40 
         transition-all duration-300 
@@ -41,13 +41,12 @@ const Navbar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`font-medium transition-colors duration-300 hover:text-accent ${
-                  location.pathname === item.path 
-                    ? 'text-accent' 
-                    : isScrolled || location.pathname !== '/' 
-                      ? 'text-white' 
-                      : 'text-white'
-                }`}
+                className={`font-medium transition-colors duration-300 hover:text-accent ${location.pathname === item.path
+                  ? 'text-accent'
+                  : isScrolled || location.pathname !== '/'
+                    ? 'text-white'
+                    : 'text-white'
+                  }`}
               >
                 {item.name}
               </Link>
@@ -56,9 +55,8 @@ const Navbar = () => {
 
           {/* Centered Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Rocket className={`h-8 w-8 transition-colors duration-300 ${
-              isScrolled || location.pathname !== '/' ? 'text-accent' : 'text-white'
-            }`} />
+            <Rocket className={`h-8 w-8 transition-colors duration-300 ${isScrolled || location.pathname !== '/' ? 'text-accent' : 'text-white'
+              }`} />
             <span className="font-heading text-white text-2xl font-bold">START SPACE</span>
           </Link>
 
@@ -68,13 +66,12 @@ const Navbar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`font-medium transition-colors duration-300 hover:text-accent ${
-                  location.pathname === item.path 
-                    ? 'text-accent' 
-                    : isScrolled || location.pathname !== '/' 
-                      ? 'text-white' 
-                      : 'text-white'
-                }`}
+                className={`font-medium transition-colors duration-300 hover:text-accent ${location.pathname === item.path
+                  ? 'text-accent'
+                  : isScrolled || location.pathname !== '/'
+                    ? 'text-white'
+                    : 'text-white'
+                  }`}
               >
                 {item.name}
               </Link>
@@ -87,9 +84,8 @@ const Navbar = () => {
         <div className="lg:hidden flex items-center justify-between">
           {/* Mobile Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Rocket className={`h-8 w-8 transition-colors duration-300 ${
-              isScrolled || location.pathname !== '/' ? 'text-accent' : 'text-white'
-            }`} />
+            <Rocket className={`h-8 w-8 transition-colors duration-300 ${isScrolled || location.pathname !== '/' ? 'text-accent' : 'text-white'
+              }`} />
             <span className="font-heading text-white text-xl font-bold">START SPACE</span>
           </Link>
 
@@ -114,11 +110,10 @@ const Navbar = () => {
                   key={item.path}
                   to={item.path}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`font-medium transition-colors duration-300 hover:text-accent ${
-                    location.pathname === item.path 
-                      ? 'text-accent' 
-                      : 'text-white'
-                  }`}
+                  className={`font-medium transition-colors duration-300 hover:text-accent ${location.pathname === item.path
+                    ? 'text-accent'
+                    : 'text-white'
+                    }`}
                 >
                   {item.name}
                 </Link>
