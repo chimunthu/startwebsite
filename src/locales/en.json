@@ -363,9 +363,18 @@
       "title": "Contact Us",
       "subtitle": "We're here to help you transform your ideas into reality. Get in touch with us!"
     },
-    "detailed": {
-      "title": "Get in Touch With Us",
-      "description": "We're always available to help you transform your ideas into reality. Contact us through any of the channels below."
+    "methods": {
+      "title": "Contact Us",
+      "description": "Get in touch with us through the channels below to ask questions or schedule a meeting."
+    },
+    "address": {
+      "title": "Visit Our Office",
+      "description": "Meet our team and see our workspace in person in Beira, Mozambique."
+    },
+    "visit": {
+      "title": "Schedule a Visit",
+      "description": "Come see our innovation hub and discover how we can help your startup.",
+      "button": "View on Map"
     },
     "whatsapp": {
       "title": "WhatsApp",

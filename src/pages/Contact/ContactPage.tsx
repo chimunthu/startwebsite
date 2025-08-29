@@ -1,7 +1,8 @@
 import React from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
 import InternalHero from '../../components/hero/InternalHero';
-import DetailedContactInfo from './sections/DetailedContactInfo';
+import ContactMethods from './sections/ContactMethods';
+import AddressInfo from './sections/AddressInfo';
 import LocationMap from './sections/LocationMap';
 import SocialConnect from './sections/SocialConnect';
 
@@ -18,8 +19,14 @@ const ContactPage = () => {
       
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-            <DetailedContactInfo />
+          {/* First Row: Contact Methods and Address Info */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 mb-16">
+            <ContactMethods />
+            <AddressInfo />
+          </div>
+          
+          {/* Second Row: Map (Full Width) */}
+          <div className="max-w-4xl mx-auto">
             <LocationMap />
           </div>
         </div>

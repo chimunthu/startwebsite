@@ -357,9 +357,18 @@
       "title": "Fale Conosco",
       "subtitle": "Estamos aqui para ajudar você a transformar suas ideias em realidade. Entre em contato conosco!"
     },
-    "detailed": {
-      "title": "Entre em Contato Conosco",
-      "description": "Estamos sempre disponíveis para ajudar você a transformar suas ideias em realidade. Entre em contato através de qualquer um dos canais abaixo."
+    "methods": {
+      "title": "Fale Conosco",
+      "description": "Entre em contato conosco através dos canais abaixo para tirar dúvidas ou agendar uma reunião."
+    },
+    "address": {
+      "title": "Visite Nosso Escritório",
+      "description": "Conheça nosso espaço de trabalho e nossa equipe pessoalmente em Beira, Moçambique."
+    },
+    "visit": {
+      "title": "Agende uma Visita",
+      "description": "Venha conhecer nosso hub de inovação e descobrir como podemos ajudar sua startup.",
+      "button": "Ver no Mapa"
     },
     "whatsapp": {
       "title": "WhatsApp",
